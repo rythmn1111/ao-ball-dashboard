@@ -13,7 +13,7 @@ const wallet = {
   "dq": "WUu04LboNu1CDRAYO7OCCPgv4Jg_5vDRVT_WKlWoNT0aBhMNQu5rTHKK5-X9HQyXCbrVrr4Q18ol-MJW8r80rtV80-lgAy-irR2JpFjwUaUavJffiB-bOr2qEHxGAFT3vSOb2-qfwLUCtvCvg_6W4R_OHMIq5ac-YAMheLu8INxTFkVcg4zCV2Dp3xT05AZ1JovJ0IYdCBIw2alzzj7-ORT4z3TFNJ2_WAJgefL-3exVz0SOaRfcna3AseNQ13CzqwZIlCj0aMHiRkj5cHlvfxgD9d3tzGsZLmVBRKiArIhPm5jjjDgxgcl8PtYnfOiFlUoBQ3zsHB-u8XX6oqPOlQ",
   "qi": "pYHMWDefnsG57DaoOZGiY34arqCAyXISsW-mqJmfHV9Uju8nSFKdX7Hb7fUeZPUmayJifyE6vI4XtZUePSq7Wn3BqnO7ppjcDgiclFZQ75g4l4sfsBHNhASd9sJ0Jz2ovJQTRdcoNORyGZDh2m_aprr0r4ttBNKW5a8WCxYclPzHtJgfcTl5KsuDmD57ruXctfw4EhWg-jqeUPiUyHq98XTTn6Ppbyujf7wQPf-rBuOg_7p4Kq0CMnDhZsqPr4ZUYeFoSFJFSU1AKnL_QBQG4jpV05wvtdy0k54iKPpLCKHFQQEpYo3-wNYTn9I7bBBNEC0BCghjTwqr8pJxK0dU9Q"
 };
-const processId = 'vBv8fQ6FlqZkvKlGrWwt8ngBPpVU0ypW_2GcvbOdLdY'; // replace with your process
+const processId = 'hIoWDYQNWcOYt7x81SIy714-pqYPFhGeBOezf_rFMoU'; // replace with your process
 
 const ao = connect({
   MODE: 'legacy',
