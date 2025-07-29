@@ -44,7 +44,7 @@ export default function Dashboard() {
       <main className="p-6 space-y-6">
         <div className="flex justify-center">
           <MorphingText
-            texts={["AO Ball", "Permaweb"]}
+            texts={["Blockchain Ball", "Permaweb"]}
             className="text-neutral-800"
           />
         </div>
