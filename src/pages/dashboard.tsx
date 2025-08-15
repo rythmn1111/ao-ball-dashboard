@@ -68,8 +68,8 @@ export default function Dashboard() {
           <Card>
             <CardContent className="p-4 text-center">
               <h2 className="text-lg font-semibold">Highest Speed</h2>
-              <p>ID: {highestSpeed?.id || "-"}</p>
-              <p>Player: {highestSpeed?.player || "Unknown"}</p>
+                             <p>Player: {highestSpeed?.player || "Unknown"}</p>
+               <p>ID: {highestSpeed?.id || "-"}</p>
               <p>{highestSpeed?.speed} m/s</p>
             </CardContent>
           </Card>
@@ -77,8 +77,8 @@ export default function Dashboard() {
             <Card>
               <CardContent className="p-4 text-center">
                 <h2 className="text-lg font-semibold">Highest Height</h2>
-                <p>ID: {highestHeight?.id || "-"}</p>
-                <p>Player: {highestHeight?.player || "Unknown"}</p>
+                                 <p>Player: {highestHeight?.player || "Unknown"}</p>
+                 <p>ID: {highestHeight?.id || "-"}</p>
                 <p>{highestHeight?.height} cm</p>
               </CardContent>
             </Card>
@@ -86,8 +86,8 @@ export default function Dashboard() {
           <Card>
             <CardContent className="p-4 text-center">
               <h2 className="text-lg font-semibold">Highest Strength</h2>
-              <p>ID: {highestStrength?.id || "-"}</p>
-              <p>Player: {highestStrength?.player || "Unknown"}</p>
+                             <p>Player: {highestStrength?.player || "Unknown"}</p>
+               <p>ID: {highestStrength?.id || "-"}</p>
               <p>{highestStrength?.strength} g</p>
             </CardContent>
           </Card>
@@ -107,10 +107,10 @@ export default function Dashboard() {
               {[...throws].reverse().map((t, index) => (
                 <Card key={t.id || index} className="p-4">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <p className="font-medium">ID: {t.id || "-"}</p>
-                      <p className="text-sm text-gray-600">Player: {t.player || "Unknown"}</p>
-                    </div>
+                                         <div>
+                       <p className="font-medium">{t.player || "Unknown"}</p>
+                       <p className="text-sm text-gray-600">ID: {t.id || "-"}</p>
+                     </div>
                                                               <div className="space-x-2">
                         {showHeight && <Badge>Height: {t.height}cm</Badge>}
                         <Badge>Speed: {t.speed}m/s</Badge>
@@ -132,8 +132,8 @@ export default function Dashboard() {
                   .slice(0, 10)
                   .map((t, index) => (
                     <Card key={t.id || index} className="p-4">
-                      <p className="font-medium">ID: {t.id || "-"}</p>
-                      <p className="text-sm text-gray-600">Player: {t.player || "Unknown"}</p>
+                                           <p className="font-medium">{t.player || "Unknown"}</p>
+                     <p className="text-sm text-gray-600">ID: {t.id || "-"}</p>
                       <p>Speed: {t.speed} m/s</p>
                     </Card>
                   ))}
